@@ -1,12 +1,11 @@
 package main
 
 import (
-	"fmt"
 	"github.com/kyokomi/emoji/v2"
 )
 
 func main() {
-	fmt.Println(GetMessage())
+	GetMessage()
 }
 
 func GetMessage() string {
